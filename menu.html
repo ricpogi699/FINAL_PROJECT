@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Menu</title>
+</head>
+<body>
+    <div id="wrapper-div">
+
+        <div id="logo-nav-div" class="clearfix">
+            <div id="logo-div">
+                <a href="index.html">
+                    <img style="position: relative; top: 10px; left: 65px;" src="images/LOGO.png" width="50px" height="50px">
+                </a>
+                <a href="index.html">
+                    <h2 style="position: absolute; top: 10px; left: 130px; color: #BC8741; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        From Scratch, With Love
+                    </h2>
+                </a>
+            </div>
+            <div id="nav-div" class="clearfix">
+                <a style="line-height: 70px; position: relative; left:40px; color: #BC8741;" href="menu.html">Menu</a> 
+                <a style="line-height: 70px; position: relative; left:110px; color: #BC8741;" href="locations.html">Locations</a>
+                <a style="line-height: 70px; position: relative; left:180px; color: #BC8741;" href="">Search Bar</a>
+                <a style="line-height: 70px; position: relative; left:345px; color: #BC8741;" href="sign_in_page.html">
+                    <img src="images/acc.png" class="nav-icon"> Sign In
+                </a>  
+                <a style="line-height: 70px; position: relative; left:325px; color: #BC8741;" href="cart.html">
+                    <img src="images/cart.png" class="nav-icon2">Cart
+                </a> 
+            </div>
+        </div>
+
+
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="toggle-btn">&#9776;</label>
+        
+        <div class="sidebar">
+            <ul>
+                <li><a href= "index.html"> Home</a></li>
+                <li><a href= "about.html"> About</a></li>
+                <li><a href= "contact.html"> Contact</a></li>
+            </ul>
+        </div>
+
+        <div id="main-div" class="clearfix">
+            <div class="category-nav">
+                <a href="#bread" class="category-link">Bread</a>
+                <a href="#cakes" class="category-link">Cakes</a>
+                <a href="#cookies" class="category-link">Cookies</a>
+                <a href="#croissants" class="category-link">Croissants</a>
+                <a href="#pies" class="category-link">Pies</a>
+            </div>
+
+            <div id="bread" class="category-section">
+                <h2 class="category">Bread</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/milk bread.jpg" alt="Milk Bread" class="menu-img">
+                        <h3>Milk Bread</h3>
+                        <p class="price">₱120.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/raisinn.jpeg" alt="Raisin Bread" class="menu-img">
+                        <h3>Raisin Bread</h3>
+                        <p class="price">₱145.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cakes" class="category-section">
+                <h2 class="category">Cakes</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/strawberry-shortcake.jfif" alt="Strawberry Shortcake" class="menu-img">
+                        <h3>Strawberry Shortcake</h3>
+                        <p class="price">₱300.99</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cookies" class="category-section">
+                <h2 class="category">Cookies</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/cholite.jpg" alt="Chocolate Cookies" class="menu-img">
+                        <h3>Chocolate Cookies</h3>
+                        <p class="price">₱100.50</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="croissants" class="category-section">
+                <h2 class="category">Croissants</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/choco.jpg" alt="Chocolate Croissant" class="menu-img">
+                        <h3>Chocolate Croissant</h3>
+                        <p class="price">₱120.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="pies" class="category-section">
+                <h2 class="category">Pies</h2>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <img src="images/pieapple.jpg" alt="Apple Pie" class="menu-img">
+                        <h3>Apple Pie</h3>
+                        <p class="price">₱300.00</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="logo">
+                <img src="images/LOGO.png" alt="Logo">
+            </div>
+
+            <div class="info">
+                <p class="name">Ric Andrei S. Eblacas</p>
+                <p class="email">Email: ricandrei.eblacas@gmail.com</p>
+            </div>
+        </footer>
+
+      
+
+     </div>
+     
+     <script src="script.js" defer></script>
+</body>
+</html>

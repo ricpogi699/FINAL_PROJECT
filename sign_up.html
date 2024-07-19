@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="wrapper-div">
+        <div id="logo-nav-div" class="clearfix">
+            <div id="logo-div">
+                <a href="javascript:history.back()">
+                    <img src="images/back.png" alt="Back" style="position: relative; top: 15px; left: 90px; width: 35px; height: 35px; cursor: pointer;">
+                </a>
+                <h2 style="position: absolute; top: 10px; left: 130px; color: #BC8741; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Go Back</h2>
+            </div>
+            <div id="nav-div" class="clearfix"></div>
+        </div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="toggle-btn">&#9776;</label>
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="main-div">
+            <form action="https://formsubmit.co/202310454@fit.edu.ph" method="POST" id="sign_up_form">
+                <h1>Sign Up</h1>
+                <div class="inputBox">
+                    <input type="text" id="username" name="username" required>
+                    <label>Username</label>
+                    <span id="username-error" class="error-message"></span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" id="email" name="email" required>
+                    <label>Email</label>
+                    <span id="email-error" class="error-message"></span>
+                </div>
+                <div class="inputBox">
+                    <input type="password" id="password" name="password" required>
+                    <label>Password</label>
+                    <span id="password-error" class="error-message"></span>
+                </div>
+                <div class="inputBox">
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <label>Confirm Password</label>
+                    <span id="confirm-password-error" class="error-message"></span>
+                </div>
+                <div class="inputBox">
+                    <button type="submit" class="sign-in-btn" value="Sign-Up">Sign Up</button>
+                </div>
+                <p>Already have an account? <a href="sign_in_page.html">Sign In</a></p>
+            </form>
+        </div>
+        <footer>
+            <div class="logo">
+                <img src="images/LOGO.png" alt="Logo">
+            </div>
+            <div class="info">
+                <p class="name">Ric Andrei S. Eblacas</p>
+                <p class="email">Email: ricandrei.eblacas@gmail.com</p>
+            </div>
+        </footer>
+    </div>
+   
+    <script src="script.js" defer></script>
+</body>
+</html>

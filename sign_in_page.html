@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <div id="wrapper-div">
+
+        <div id="logo-nav-div" class="clearfix">
+            <div id="logo-div">
+                <a href="javascript:history.back()">
+                    <img src="images/back.png" alt="Back" style="position: relative; top: 15px; left: 90px; width: 35px; height: 35px; cursor: pointer;" >
+                </a>                  
+                <h2 style="position: absolute; top: 10px; left: 130px; color: #BC8741; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Go Back</h2>
+            </div>
+            <div id="nav-div" class="clearfix">
+                
+            </div>
+        </div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle" class="toggle-btn">&#9776;</label>
+        
+        <div class="sidebar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+            <div class="main-div">
+            <form id="sign_in_form">
+                <h1>Sign In</h1>
+                <div class="inputBox">
+                    <input type="text" id="username" name="username" required>
+                    <label>Username</label>
+                </div>
+                
+                <div class="inputBox">
+                    <input type="password" id="password" name="password" required>
+                    <label>Password</label>
+                </div>
+            
+                <div class="inputBox">
+                    <button type="submit" class="sign-in-btn" value="Sign-In">Sign In</button>
+                </div>
+                <p>Don't have an account? <a href="sign_up.html">Sign Up</a></p>
+            </form>
+            </div>
+    
+
+    <footer>
+        <div class="logo">
+            <img src="images/LOGO.png" alt="Logo">
+        </div>
+        <div class="info">
+            <p class="name">Ric Andrei S. Eblacas</p>
+            <p class="email">Email: ricandrei.eblacas@gmail.com</p>
+        </div>
+    </footer>
+</div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
